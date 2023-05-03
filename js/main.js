@@ -15,5 +15,8 @@ $.ajax({
 
         });
         $('.tabeldata').html(baris);
+    },
+    error: (e) => {
+        alert("Maaf system error");
     }
 });
